@@ -23,23 +23,9 @@ OBS를 사용하여 외부장치 방송 페이지(https://dashboard.afreecatv.co
 <img src="https://github.com/wonhoForDev/afreecatv-extension-template-react/assets/141397728/71ca776e-10e5-4363-9a8f-31fb515933f2" width="70%">
 
 ## 테스트 기록 사항
-### host가 왜 127.0.0.1로 되어있는가?
-기본 적인 개발 환경에선 http://localhost 를 사용하게 되어 있는데  
-이 경우 프릭샷에서 테스트 시 http://localhost가 차단되어 테스트 진행이 불가 하다.  
-
-해결 방법이 2가지 있는데  
-
-기본 적으로 세팅되어 있는 방식은  
-http://127.0.0.1을 활용하는 방식으로  
-http://127.0.0.1은 프릭샷에서 차단되지 않는다.  
-
-또 다른 방법은 https 환경을 만드는 것인데  
-아래와 같이 진행하면 https 환경을 만들 수 있다.  
-* install vite-plugin-mkcert
-* server 값에 https: true 추가
-* plugins: [react(), mkcert()],
-
-물론 이 경우 developers 페이지에서 https로 호출하도록 값을 맞춰주는 것도 잊지 말자  
+## ~~host가 왜 127.0.0.1로 되어있는가?~~
+프릭샷 inspector가 localhost를 127.0.0.1로 치환 해준다.  
+따라서 설정에서 host를 127.0.0.1로 직접 바꿔줄 필요가 없게 되었음
 
 ### 폴더 구조
 기본적인 vite-react 프로젝트에서  

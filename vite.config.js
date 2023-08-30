@@ -18,7 +18,7 @@ export default defineConfig({
     cssMinify: false,
   },
   server: {
-    host: '127.0.0.1', //freecshot must use 127.0.0.1 for http
+    //host: '127.0.0.1', freecshot must use 127.0.0.1 for http - inspector auto replace host
     port: '8080',
     open: '/bj_screen.html',
   },
