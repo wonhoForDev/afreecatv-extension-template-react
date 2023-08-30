@@ -10,12 +10,15 @@ vite-react template for afreecaTv extension
 
 ## 테스트
 ### 확장 프로그램 테스트 환경 세팅
-<img src="https://github.com/wonhoForDev/afreecatv-extension-template-react/assets/141397728/0be45cdc-7495-460d-afa4-9dfbb99a5aec" width="90%">
+
+<img src="https://github.com/wonhoForDev/afreecatv-extension-template-react/assets/141397728/529b34d0-9ac3-4fa1-9af7-9a3eab5f2ec0" width="90%">
 
 위 처럼 세팅 후 테스트 모드 활성화  
 프릭샷을 사용하면 디버깅이 쉽지 않아서  
 OBS를 사용하여 외부장치 방송 페이지(https://dashboard.afreecatv.com/) 에서 개발 함  
 물론 프릭샷에서도 동작함  
+
+<img src="https://github.com/wonhoForDev/afreecatv-extension-template-react/assets/141397728/ba4bf88f-1e0c-4a85-beed-f0c45addf5d1" width="70%">
 
 <img src="https://github.com/wonhoForDev/afreecatv-extension-template-react/assets/141397728/71ca776e-10e5-4363-9a8f-31fb515933f2" width="70%">
 
